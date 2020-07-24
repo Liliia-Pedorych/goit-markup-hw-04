@@ -254,13 +254,29 @@ html {
   padding-left: 32px;
 }
 .social-links-item {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 44px;
   height: 44px;
-  background: #f5f4fa;
+  border-radius: 50%;
+  /* background: var(--accent-color); */
 }
 .social-links-item:not(:last-child) {
   margin-right: 10px;
+}
+.social-links-item-icon {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
+}
+.social-links-item:hover,
+.social-links-item:focus {
+  background: var(--accent-color);
+}
+.social-links-item:hover .social-links-item-icon,
+.social-links-item:focus .social-links-item-icon {
+  fill: #ffffff;
 }
 .team-list-item-name {
   margin-top: 30px;
