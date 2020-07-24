@@ -260,7 +260,10 @@ html {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  /* background: var(--accent-color); */
+}
+.social-links-item-link {
+  display: flex;
+  padding: 12px;
 }
 .social-links-item:not(:last-child) {
   margin-right: 10px;
