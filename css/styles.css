@@ -347,11 +347,13 @@ html {
   display: flex;
   padding-top: 60px;
   padding-bottom: 60px;
+
   align-content: center;
   background-color: #2f303a;
 }
 .footer-elements {
   display: flex;
+  justify-content: space-between;
 }
 .footer-elements-logo-address {
   margin-right: 69px;
@@ -381,8 +383,10 @@ html {
 
 .call {
   padding-top: 12px;
+  margin-right: 94px;
 }
 .join {
+  display: block;
   margin-bottom: 20px;
   font-weight: 700;
   line-height: 1.14;
@@ -412,6 +416,38 @@ html {
 .social-list-item-link:hover,
 .social-list-item-link:focus {
   background: var(--accent-color);
+}
+.subscribe {
+  padding-top: 12px;
+  padding-bottom: 34px;
+}
+.subscribe .button {
+  display: flex;
+  min-width: 200px;
+  padding-top: 10px;
+  padding-right: 29px;
+  padding-bottom: 10px;
+  padding-left: 29px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+.subscribe-text {
+  margin-right: 10px;
+}
+.subscribe-icon {
+  fill: #ffffff;
+}
+.subscribe-form {
+  display: flex;
 }
 
 /* Примеры работ */
