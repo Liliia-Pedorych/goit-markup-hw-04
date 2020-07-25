@@ -12,7 +12,7 @@
     <title>Портфолио</title>
   </head>
   <body>
-    <header class="header">
+    <header class="header portfolio">
       <div class="container">
         <nav class="navigation">
           <a class="logo link" href="index.html" lang="en">
@@ -21,7 +21,7 @@
           <ul class="navigation-list list">
             <li class="navigation-list-item">
               <a
-                class="navigation-list-item-link link current"
+                class="navigation-list-item-link link"
                 href="index.html"
                 target="blank"
                 >Студия</a
@@ -29,7 +29,7 @@
             </li>
             <li class="navigation-list-item">
               <a
-                class="navigation-list-item-link link"
+                class="navigation-list-item-link link current"
                 href="portfolio.html"
                 target="blank"
                 >Портфолио</a
@@ -322,34 +322,53 @@
             <b class="join">Присоеденяйтесь</b>
             <ul class="social-list list">
               <li class="social-list-item">
-                <a
-                  class="social-list-item-link link"
-                  href=""
-                  aria-label="иконка инстаграма"
+                <a class="social-list-item-link link" href=""
+                  ><svg class="social-list-item-icon">
+                    <use
+                      href="./images/sprite.svg#icon-instagram"
+                      aria-label="иконка инстаграма"
+                    ></use></svg
                 ></a>
               </li>
               <li class="social-list-item">
-                <a
-                  class="social-list-item-link link"
-                  href=""
-                  aria-label="иконка твитера"
+                <a class="social-list-item-link link" href=""
+                  ><svg class="social-list-item-icon">
+                    <use
+                      href="./images/sprite.svg#icon-twitter"
+                      aria-label="иконка инстаграма"
+                    ></use></svg
                 ></a>
               </li>
               <li class="social-list-item">
-                <a
-                  class="social-list-item-link link"
-                  href=""
-                  aria-label="иконка фейсбук"
+                <a class="social-list-item-link link" href=""
+                  ><svg class="social-list-item-icon">
+                    <use
+                      href="./images/sprite.svg#icon-facebook"
+                      aria-label="иконка инстаграма"
+                    ></use></svg
                 ></a>
               </li>
               <li class="social-list-item">
-                <a
-                  class="social-list-item-link link"
-                  href=""
-                  aria-label="иконка линкедин"
+                <a class="social-list-item-link link" href=""
+                  ><svg class="social-list-item-icon">
+                    <use
+                      href="./images/sprite.svg#icon-linkedin"
+                      aria-label="иконка инстаграма"
+                    ></use></svg
                 ></a>
               </li>
             </ul>
+          </div>
+          <div class="subscribe">
+            <b class="join">подпишитесь на рассылку</b>
+            <div class="subscribe-form">
+              <button type="button" class="button">
+                <span class="subscribe-text">Подписаться</span>
+                <svg class="subscribe-icon" width="24" height="24">
+                  <use href="./images/sprite.svg#icon-icon-send"></use>
+                </svg>
+              </button>
+            </div>
           </div>
         </div>
       </div>
